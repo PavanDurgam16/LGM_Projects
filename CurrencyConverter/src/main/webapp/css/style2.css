@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+/* style2.css */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+form {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	color: #555;
+}
+
+input[type="number"],
+select {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+table th,
+table td {
+	padding: 10px;
+	text-align: left;
+}
+
+table th {
+	background-color: #333;
+	color: #fff;
+}
+
+table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+a {
+	display: inline-block;
+	margin-top: 10px;
+	color: #4CAF50;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #45a049;
+}
+
+/* Style for a success message */
+.success-message {
+  color: #4CAF50;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for an error message */
+.error-message {
+  color: #FF0000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

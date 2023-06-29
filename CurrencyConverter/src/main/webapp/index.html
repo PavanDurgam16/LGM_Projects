@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Currency Converter</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/style2.css">
+	<link rel="stylesheet" type="text/css" href="./css/animations.css">
+</head>
+
+<body>
+	<form action="converter2" method="post">
+		<label for="amount">Amount:</label>
+		<input type="number" id="amount" name="amount" step="any" required><br>
+
+		<label for="from">From Currency:</label>
+		<select id="from" name="from" required>
+			<option value="" disabled selected>Select Base Currency</option>
+			<!-- JavaScript code will be placed for options here -->
+		</select><br>
+
+		<label for="to">To Currency:</label>
+		<select id="to" name="to" required>
+			<option value="" disabled selected>Select Target Currency</option>
+			<!-- JavaScript code will be placed for options here -->
+		</select><br>
+
+		<input type="submit" value="Convert">
+	</form>
+	<script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+/* animations.css */
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes slideIn {
+	from {
+		transform: translateY(-100%);
+	}
+
+	to {
+		transform: translateY(0);
+	}
+}
+
+
+body {
+	animation: fadeIn 1s ease-in-out;
+}
+
+form {
+	animation: slideIn 1s ease-in-out;
+}
+
+table {
+	animation: slideIn 1s ease-in-out;
+}
